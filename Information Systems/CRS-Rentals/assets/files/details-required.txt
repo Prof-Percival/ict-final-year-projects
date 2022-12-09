@@ -1,0 +1,32 @@
+			YOUR PERSONAL DETAILS
+Citizenship
+Title
+First Name
+LastName
+Date of Birth
+ID Number (if South African)
+Gender
+Passport No (if not South African)
+
+			YOUR ADDRESS INFORMATION
+Street Name
+Suburb
+Town
+Code
+Province
+
+			YOUR CONTACT INFORMATION
+Cellphone No
+Email Address
+
+			NEXT OF KIN INFORMATION
+NoK Name
+NoK Surname
+NoK Cellphone No
+NoK Relationship
+NoK Country
+
+			ATTACHMENTS
+Identification Document
+Drivers License
+Your Image

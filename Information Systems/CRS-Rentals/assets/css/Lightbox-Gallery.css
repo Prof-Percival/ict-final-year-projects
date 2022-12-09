@@ -1,0 +1,75 @@
+#lightbox .modal-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  max-width: 100vw;
+  left: 0;
+  background-color: rgb(24,24,24);
+  color: var(--bs-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#slideShow {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 5000;
+}
+
+#prevBtn {
+  position: absolute;
+  left: 5px;
+}
+
+#nextBtn {
+  position: absolute;
+  right: 5px;
+}
+
+#lightboxImg {
+  max-height: calc(100vh - 2rem);
+  min-width: 200px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  opacity: 1;
+  -webkit-transition: opacity 420ms ease-in-out;
+  -moz-transition: opacity 420ms ease-in-out;
+  transition: opacity 420ms ease-in-out;
+}
+
+.kul-gallery .photos img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.kul-gallery {
+  background-color: rgb(24,24,24);
+  color: var(--bs-white);
+  min-height: 100vh;
+}
+
+.photo-info {
+  position: absolute;
+  bottom: 0;
+}
+

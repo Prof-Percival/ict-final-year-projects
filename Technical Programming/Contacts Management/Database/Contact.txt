@@ -1,0 +1,11 @@
+CREATE TABLE `contactsmanagement`.`contact` (
+`id` INT NOT NULL AUTO_INCREMENT , 
+`FirstName` VARCHAR(50) NOT NULL , 
+`LastName` VARCHAR(50) NOT NULL , 
+`GroupCategory` VARCHAR(25) NOT NULL , 
+`Phone` VARCHAR(20) NOT NULL , 
+`Email` VARCHAR(30) NOT NULL , 
+`Address` TEXT NOT NULL , 
+`Picture` MEDIUMBLOB NOT NULL , 
+'UserId' INT NOT NULL,
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
